@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2EFCF8218AC77B00EF0BD9 /* iOSScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2EFCEE218AC77B00EF0BD9 /* iOSScanner.framework */; };
+		EC2EFCFD218AC77B00EF0BD9 /* iOSScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2EFCFC218AC77B00EF0BD9 /* iOSScannerTests.swift */; };
+		EC2EFCFF218AC77B00EF0BD9 /* iOSScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = EC2EFCF1218AC77B00EF0BD9 /* iOSScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC2EFCF9218AC77B00EF0BD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2EFCE5218AC77B00EF0BD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2EFCED218AC77B00EF0BD9;
+			remoteInfo = iOSScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC2EFCEE218AC77B00EF0BD9 /* iOSScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2EFCF1218AC77B00EF0BD9 /* iOSScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSScanner.h; sourceTree = "<group>"; };
+		EC2EFCF2218AC77B00EF0BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2EFCF7218AC77B00EF0BD9 /* iOSScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2EFCFC218AC77B00EF0BD9 /* iOSScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSScannerTests.swift; sourceTree = "<group>"; };
+		EC2EFCFE218AC77B00EF0BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2EFCEB218AC77B00EF0BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2EFCF4218AC77B00EF0BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2EFCF8218AC77B00EF0BD9 /* iOSScanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2EFCE4218AC77B00EF0BD9 = {
+			isa = PBXGroup;
+			children = (
+				EC2EFCF0218AC77B00EF0BD9 /* iOSScanner */,
+				EC2EFCFB218AC77B00EF0BD9 /* iOSScannerTests */,
+				EC2EFCEF218AC77B00EF0BD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2EFCEF218AC77B00EF0BD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2EFCEE218AC77B00EF0BD9 /* iOSScanner.framework */,
+				EC2EFCF7218AC77B00EF0BD9 /* iOSScannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2EFCF0218AC77B00EF0BD9 /* iOSScanner */ = {
+			isa = PBXGroup;
+			children = (
+				EC2EFCF1218AC77B00EF0BD9 /* iOSScanner.h */,
+				EC2EFCF2218AC77B00EF0BD9 /* Info.plist */,
+			);
+			path = iOSScanner;
+			sourceTree = "<group>";
+		};
+		EC2EFCFB218AC77B00EF0BD9 /* iOSScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2EFCFC218AC77B00EF0BD9 /* iOSScannerTests.swift */,
+				EC2EFCFE218AC77B00EF0BD9 /* Info.plist */,
+			);
+			path = iOSScannerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EC2EFCE9218AC77B00EF0BD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2EFCFF218AC77B00EF0BD9 /* iOSScanner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EC2EFCED218AC77B00EF0BD9 /* iOSScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2EFD02218AC77B00EF0BD9 /* Build configuration list for PBXNativeTarget "iOSScanner" */;
+			buildPhases = (
+				EC2EFCE9218AC77B00EF0BD9 /* Headers */,
+				EC2EFCEA218AC77B00EF0BD9 /* Sources */,
+				EC2EFCEB218AC77B00EF0BD9 /* Frameworks */,
+				EC2EFCEC218AC77B00EF0BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSScanner;
+			productName = iOSScanner;
+			productReference = EC2EFCEE218AC77B00EF0BD9 /* iOSScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC2EFCF6218AC77B00EF0BD9 /* iOSScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2EFD05218AC77B00EF0BD9 /* Build configuration list for PBXNativeTarget "iOSScannerTests" */;
+			buildPhases = (
+				EC2EFCF3218AC77B00EF0BD9 /* Sources */,
+				EC2EFCF4218AC77B00EF0BD9 /* Frameworks */,
+				EC2EFCF5218AC77B00EF0BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2EFCFA218AC77B00EF0BD9 /* PBXTargetDependency */,
+			);
+			name = iOSScannerTests;
+			productName = iOSScannerTests;
+			productReference = EC2EFCF7218AC77B00EF0BD9 /* iOSScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2EFCE5218AC77B00EF0BD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Netvirta;
+				TargetAttributes = {
+					EC2EFCED218AC77B00EF0BD9 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					EC2EFCF6218AC77B00EF0BD9 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = EC2EFCE8218AC77B00EF0BD9 /* Build configuration list for PBXProject "iOSScanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC2EFCE4218AC77B00EF0BD9;
+			productRefGroup = EC2EFCEF218AC77B00EF0BD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2EFCED218AC77B00EF0BD9 /* iOSScanner */,
+				EC2EFCF6218AC77B00EF0BD9 /* iOSScannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2EFCEC218AC77B00EF0BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2EFCF5218AC77B00EF0BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2EFCEA218AC77B00EF0BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2EFCF3218AC77B00EF0BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2EFCFD218AC77B00EF0BD9 /* iOSScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC2EFCFA218AC77B00EF0BD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2EFCED218AC77B00EF0BD9 /* iOSScanner */;
+			targetProxy = EC2EFCF9218AC77B00EF0BD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC2EFD00218AC77B00EF0BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC2EFD01218AC77B00EF0BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC2EFD03218AC77B00EF0BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7B3HGDD2JS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iOSScanner/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.netvirta.iOSScanner;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC2EFD04218AC77B00EF0BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7B3HGDD2JS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iOSScanner/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.netvirta.iOSScanner;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC2EFD06218AC77B00EF0BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B3HGDD2JS;
+				INFOPLIST_FILE = iOSScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.netvirta.iOSScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC2EFD07218AC77B00EF0BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B3HGDD2JS;
+				INFOPLIST_FILE = iOSScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.netvirta.iOSScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2EFCE8218AC77B00EF0BD9 /* Build configuration list for PBXProject "iOSScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2EFD00218AC77B00EF0BD9 /* Debug */,
+				EC2EFD01218AC77B00EF0BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2EFD02218AC77B00EF0BD9 /* Build configuration list for PBXNativeTarget "iOSScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2EFD03218AC77B00EF0BD9 /* Debug */,
+				EC2EFD04218AC77B00EF0BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2EFD05218AC77B00EF0BD9 /* Build configuration list for PBXNativeTarget "iOSScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2EFD06218AC77B00EF0BD9 /* Debug */,
+				EC2EFD07218AC77B00EF0BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC2EFCE5218AC77B00EF0BD9 /* Project object */;
+}
